@@ -10,13 +10,7 @@ A **Streamlit-powered chatbot** that allows users to interact with a **PostgreSQ
 - **⚡ Easy Setup:** Automatically installs required dependencies and provides a simple configuration interface.
 
 ## 🏗️ Installation
-Ensure you have Python installed, then run:
-
-```sh
-pip install -r requirements.txt
-```
-
-Or, let the script handle dependency installation automatically.
+Ensure you have Python installed, then uncomment the dependencies code lines and let the script handle dependency installation automatically.
 
 ## 🛠️ How to Use
 1. **Run the chatbot:**
@@ -44,9 +38,6 @@ Or, let the script handle dependency installation automatically.
 ## 📌 Notes
 - Ensure **Ollama is running** and the `llama3.2` model is available.
 - If using a database, make sure **PostgreSQL is accessible**.
-
-## 🤝 Contributions
-Feel free to fork, modify, and contribute! PRs are welcome.
 
 ## 📜 License
 This project is licensed under the **Apache License 2.0**.
