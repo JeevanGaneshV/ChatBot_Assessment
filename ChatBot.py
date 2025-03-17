@@ -1,3 +1,7 @@
+import sys
+import subprocess
+import os
+
 # # Install necessary dependencies
 # def install_packages():
 #     required_packages = [
@@ -20,7 +24,7 @@
 
 
 
-
+# Importing the necessary packages
 import streamlit as st
 import ollama
 from langchain_community.utilities import SQLDatabase
